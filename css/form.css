@@ -1,0 +1,170 @@
+ *{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+header{
+    padding: 0 3%;
+    background-color: rgb(252, 252, 255);
+}
+
+#style {
+    color: blue;
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration:none;
+}
+
+h1{
+    color: darkblue;
+    margin-top: 0;
+    padding-top: 21.44px;
+}
+
+.sign-up{
+    font-size: 20px;
+}
+
+label{
+    display: block;
+}
+
+input,select{
+    display: block;
+    padding:16px 24px 16px 10px;
+    background-color: #FAFAFA;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+}
+
+input:hover{
+    outline:1px solid #4096ff;
+}
+
+.desktop-only{
+    display:none;
+}
+
+.center{
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.alt-logo{
+    margin-bottom: 20px;
+}
+
+.sign-in{
+    margin-bottom: 16px;
+}
+
+.form{
+    width:90%;
+    margin: 0 auto;
+}
+
+.form-item{
+    margin-bottom: 30px;
+}
+
+.grey-text{
+    color: #85888D;
+    margin-bottom: 30px;
+}
+
+.link{
+    color: #0367F2;
+    text-decoration: none;
+}
+
+.footer-link{
+    color: #2054D2;
+    text-decoration: none;
+}
+
+.button{
+    width:100%;
+    padding:10px 0;
+    border-radius: 6px;
+    background-color: #6A6FF5;
+    color:white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-arrow{
+    margin-left: 20px;
+}
+
+.intro{
+    font-size: 35px;
+}
+
+
+
+@media screen and (min-width: 595px) {
+   
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:25px;
+    } 
+
+    .sign-in{
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    .brown{
+        background-color: #FFFCF8;
+        width:47%;
+        display: flex;
+        align-items: center;
+    }
+
+    .desktop-only{
+        display:block;
+        text-align: center;
+    }
+
+    .form{
+        width:53%;
+        padding: 40px;
+    }
+
+    .alt-logo{
+        display:none;
+    }
+
+    .flex{
+        display:flex;
+    }
+    
+    form{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    form{
+        width: 75%;
+    }
+}

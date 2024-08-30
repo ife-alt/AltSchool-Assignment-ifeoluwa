@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    color:darkblue;
+    margin-top: 0;
+    padding-top: 21.44px;
+}
+
+#style {
+    color: blue;
+}
+
+
+header{
+    background-color: rgb(252, 252, 255);
+}
+
+a{
+    text-decoration:none;
+}
+
+header,main,footer{
+    padding: 0 3%;
+}
+
+main,footer{
+    background-color: lightcyan;
+}
+
+.copyright{
+    margin: 0;
+    font-style: italic;
+    font-weight:bold;
+}
+
+.center{
+    text-align: center;
+    display: block;
+    margin:0 auto;
+}
+
+.video{
+    height: 400px;
+    width: auto;
+}

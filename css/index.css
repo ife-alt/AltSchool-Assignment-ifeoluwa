@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    color:darkblue;
+    margin-top: 0;
+    padding-top: 21.44px;
+}
+
+h2 {
+    color: blue;
+}
+
+body{
+    margin: 0;
+   
+}
+
+header{
+    background-color: rgb(252, 252, 255);
+}
+
+a{
+    text-decoration:none;
+}
+
+header,main,footer{
+    padding: 0 3%;
+}
+
+main,footer{
+    background-color: lightcyan;
+}
+
+.Ifeoluwa_Portrait{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 400px;
+}
+
+.center{
+    text-align: center;
+    display: block;
+    margin:0 auto;
+}
+
+.text-container{
+    width: min(85%,900px);
+    /* margin:0 auto; */
+}
+
+.copyright{
+    margin: 0;
+    font-style: italic;
+    font-weight:bold;
+}
+
+.conclusion{
+    margin-bottom: 0;
+}
